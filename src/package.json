@@ -1,0 +1,16 @@
+{
+    "id": "TXm-Coupon",
+    "name": "长形优惠券组件",
+    "displayName": "长形优惠券组件",
+    "version": "1.0",
+    "description": "简单的优惠券组件",
+    "keywords": [
+        "优惠券"
+    ],
+    "dcloudext": {
+        "category": [
+            "前端组件",
+            "通用组件"
+        ]
+    }
+}
