@@ -79,6 +79,7 @@ export default {
         handleMenuClick(key) {
             console.log('Menu item clicked:', key)
             // 在这里处理点击事件，例如导航到其他页面或显示提示信息
+            this.$api.getcode
         }
     }
 }

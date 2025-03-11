@@ -1,6 +1,6 @@
 {
-    "name" : "",
-    "appid" : "",
+    "name" : "权益领取平台",
+    "appid" : "wx6afc34e11398dd5c",
     "description" : "",
     "versionName" : "1.0.0",
     "versionCode" : "100",
@@ -55,6 +55,7 @@
             "minified": true,
             "urlCheck" : false
         },
+        "lazyCodeLoading": "requiredComponents",
         "usingComponents" : true
     },
     "mp-alipay" : {

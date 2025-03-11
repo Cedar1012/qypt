@@ -1,4 +1,3 @@
-// filepath: /Users/xs/work/qypt/src/pages/index/index.vue
 <template>
     <view class="container">
         <!-- 轮播 -->
@@ -21,6 +20,8 @@
                     v-bind:item="item"
                     theme="#ff0000"
                 ></CoolcCoupon>
+
+                <OrangeCoupon></OrangeCoupon>
             </view>
         </view>
     </view>
@@ -29,6 +30,7 @@
 <script>
 import SwiperComponent from '@/components/swiper-component.vue'
 import CoolcCoupon from '@/components/coolc-coupon.vue'
+import OrangeCoupon from '@/components/orange-coupon.vue'
 import LoginCard from '@/components/login-card.vue'
 import SafeArea from '@/components/safe-area.vue'
 import BackgroundImage from '@/static/ybcbg.jpg'
@@ -38,7 +40,8 @@ export default {
         SwiperComponent,
         SafeArea,
         LoginCard,
-        CoolcCoupon
+        CoolcCoupon,
+        OrangeCoupon
     },
     data() {
         return {
